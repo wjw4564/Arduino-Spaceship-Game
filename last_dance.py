@@ -68,6 +68,7 @@ try:
                 continue
             elif "자기소개" in data or "자기 소개" in data:
                 time.sleep(2)
+                print("안녕하세요! 저는 테슬라라고 합니다. 여러분들이 궁금한 것이나 도움이 필요한 것이 있으면 언제든지 물어보세요. 제가 도와드릴 수 있는 것들 중에서 최선을 다해 도와드리겠습니다. 어떤 도움이 필요하신가요?")
                 playsound.playsound("heytesla.mp3")
                 continue
 
